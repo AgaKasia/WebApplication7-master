@@ -13,7 +13,8 @@ namespace WebApplication7.Migrations
                     ID = table.Column<string>(nullable: false),
                     FirstName = table.Column<string>(nullable: true),
                     FamilyName = table.Column<string>(nullable: true)
-                },
+                },   
+
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Person", x => x.ID);
