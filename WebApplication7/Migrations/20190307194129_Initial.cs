@@ -20,6 +20,8 @@ namespace WebApplication7.Migrations
                 });
         }
 
+
+
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
